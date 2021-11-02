@@ -1,0 +1,139 @@
+    body{
+	background:#ffffff;	
+	}
+    .background{
+        background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
+    }
+    .header{
+        border: 4px double black;
+        text-align: center;
+    }
+	#hd{
+        color: black;
+    }
+    .topline{
+        border: 4px double black;
+        text-align: center;
+    }
+    .topline a{
+        text-decoration: none;
+    }
+    .topline p{
+        white-space: nowrap;
+        display: inline-block;
+    }
+	.block{
+        display: flex;
+    }
+    .leftside{
+        text-align: center;
+        border: 4px double black;
+        float: left;
+        display: block;
+        height: 700px;
+        width: 500px;
+    }
+    .centerside{
+        border: 4px double black;
+        display: block;
+        text-align: justify;
+        height: 700px;
+        width: 900px;
+        overflow: hidden;
+    }
+    .centerside p{
+        font-weight:bold
+    }
+    .table {
+        width: 100%;
+        border: 2px solid #A52A2A;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    .table th {
+        background: #A52A2A;
+        color: white;
+        padding: 10px 15px;
+    }
+    .table td {
+        border-bottom: 2px solid #A52A2A;
+        padding: 10px 15px;
+    }
+    .table tbody tr:nth-child(even){
+        background: #FFF8DC;
+    }
+	.rightside{
+        border: 4px double black;
+        float: right;
+        text-align: justify;
+        display: block;
+        height: 700px;
+        width: 500px;
+        overflow: hidden;
+    }
+    .bo{
+        font-weight: bold;
+    }
+    .textp p{
+        text-overflow: ellipsis;
+    }
+    .block2{
+        border: 4px double black;
+        display: flex;
+        height: 350px;
+    }
+    .relative, .absolute{
+        display: flex;
+        margin: auto;
+    }
+    .first_element{
+        float: left;
+    }
+    .parent{
+        float: right;
+    }
+    .first_element { 
+        position: relative; 
+        left: 50px; 
+        top: 50px; 
+        width: 200px; 
+        height: 200px;
+        background-color: #caf4fa; 
+        border: solid 3px #33dbf8; 
+        font-size: 24px; 
+        text-align: center;   
+      } 
+      .second_element { 
+        position: relative; 
+        width: 200px; 
+        height: 200px;
+        background-color: #facaca; 
+        border: solid 3px #ff4747; 
+        font-size: 24px; 
+        text-align: center; 
+      }
+    .parent { 
+        position: relative; 
+        width: 200px; 
+        height: 200px; 
+        background-color: #edc6ff; 
+        border: solid 3px #9e70ba; 
+        font-size: 24px; 
+        text-align: center; 
+    } 
+    .child { 
+        position: absolute; 
+        right: 30px; 
+        top: 30px; 
+        width: 100px; 
+        height: 100px; 
+        background-color: #cdffdc; 
+        border: solid 3px #63ff72; 
+        font-size: 24px; 
+        text-align: center; 
+    }
+    .footer {
+        border: 4px double black;
+        text-align: center;
+        height: 90px;
+    }
